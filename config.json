@@ -1,0 +1,24 @@
+{
+  "drone": {
+    "id": "AGDRONE-001",
+    "liquid_capacity": 10.0,
+    "max_flight_time": 1800,
+    "operational_altitude": 15.0
+  },
+  "spraying": {
+    "default_flow_rate": 1.0,
+    "spray_width": 4.0,
+    "flight_speed": 5.0,
+    "liquid_density": 200.0,
+    "pest_threshold": 0.2
+  },
+  "field": {
+    "sections_file": "field_sections.json",
+    "backup_coordinates": true
+  },
+  "safety": {
+    "min_battery_return": 25,
+    "max_wind_speed": 15,
+    "no_spray_zones": []
+  }
+}
